@@ -16,7 +16,7 @@ const server = http.createServer((req, res)=>{
             contentType ='text/javascript'
             break
         default:
-            contentType ='text/css'    
+            contentType ='text/html'    
     }
 
     if (!ext) {
